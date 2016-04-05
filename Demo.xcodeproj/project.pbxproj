@@ -14,6 +14,12 @@
 		1A7CA4381CAD05D8006F0085 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7CA4371CAD05D8006F0085 /* Images.xcassets */; };
 		1A7CA43B1CAD05D8006F0085 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7CA4391CAD05D8006F0085 /* LaunchScreen.xib */; };
 		1A7CA4471CAD05D8006F0085 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CA4461CAD05D8006F0085 /* DemoTests.m */; };
+		1A7CA4521CAD0633006F0085 /* OneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CA4511CAD0633006F0085 /* OneController.m */; };
+		1A7CA4551CAD07A0006F0085 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CA4541CAD07A0006F0085 /* TabBarController.m */; };
+		1A7CA4581CAD086E006F0085 /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CA4571CAD086E006F0085 /* TwoController.m */; };
+		1A7CA45B1CAD087C006F0085 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CA45A1CAD087C006F0085 /* ThreeViewController.m */; };
+		1A7CA45E1CAD0891006F0085 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CA45D1CAD0891006F0085 /* FourViewController.m */; };
+		1AA5A6DE1CAD186900E49CC4 /* myCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA5A6DD1CAD186900E49CC4 /* myCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		1A7CA4401CAD05D8006F0085 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7CA4451CAD05D8006F0085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A7CA4461CAD05D8006F0085 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		1A7CA4501CAD0633006F0085 /* OneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneController.h; sourceTree = "<group>"; };
+		1A7CA4511CAD0633006F0085 /* OneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneController.m; sourceTree = "<group>"; };
+		1A7CA4531CAD07A0006F0085 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		1A7CA4541CAD07A0006F0085 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		1A7CA4561CAD086E006F0085 /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
+		1A7CA4571CAD086E006F0085 /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
+		1A7CA4591CAD087C006F0085 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		1A7CA45A1CAD087C006F0085 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		1A7CA45C1CAD0891006F0085 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		1A7CA45D1CAD0891006F0085 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		1AA5A6DC1CAD186900E49CC4 /* myCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCell.h; sourceTree = "<group>"; };
+		1AA5A6DD1CAD186900E49CC4 /* myCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,7 @@
 		1A7CA4291CAD05D8006F0085 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1A7CA4621CAD08A8006F0085 /* Controller */,
 				1A7CA42E1CAD05D8006F0085 /* AppDelegate.h */,
 				1A7CA42F1CAD05D8006F0085 /* AppDelegate.m */,
 				1A7CA4311CAD05D8006F0085 /* ViewController.h */,
@@ -89,6 +108,8 @@
 				1A7CA4371CAD05D8006F0085 /* Images.xcassets */,
 				1A7CA4391CAD05D8006F0085 /* LaunchScreen.xib */,
 				1A7CA42A1CAD05D8006F0085 /* Supporting Files */,
+				1AA5A6DC1CAD186900E49CC4 /* myCell.h */,
+				1AA5A6DD1CAD186900E49CC4 /* myCell.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -117,6 +138,23 @@
 				1A7CA4451CAD05D8006F0085 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A7CA4621CAD08A8006F0085 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A7CA4501CAD0633006F0085 /* OneController.h */,
+				1A7CA4511CAD0633006F0085 /* OneController.m */,
+				1A7CA4531CAD07A0006F0085 /* TabBarController.h */,
+				1A7CA4541CAD07A0006F0085 /* TabBarController.m */,
+				1A7CA4561CAD086E006F0085 /* TwoController.h */,
+				1A7CA4571CAD086E006F0085 /* TwoController.m */,
+				1A7CA4591CAD087C006F0085 /* ThreeViewController.h */,
+				1A7CA45A1CAD087C006F0085 /* ThreeViewController.m */,
+				1A7CA45C1CAD0891006F0085 /* FourViewController.h */,
+				1A7CA45D1CAD0891006F0085 /* FourViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7CA4521CAD0633006F0085 /* OneController.m in Sources */,
+				1A7CA45B1CAD087C006F0085 /* ThreeViewController.m in Sources */,
+				1A7CA45E1CAD0891006F0085 /* FourViewController.m in Sources */,
 				1A7CA4331CAD05D8006F0085 /* ViewController.m in Sources */,
+				1A7CA4551CAD07A0006F0085 /* TabBarController.m in Sources */,
 				1A7CA4301CAD05D8006F0085 /* AppDelegate.m in Sources */,
+				1A7CA4581CAD086E006F0085 /* TwoController.m in Sources */,
+				1AA5A6DE1CAD186900E49CC4 /* myCell.m in Sources */,
 				1A7CA42D1CAD05D8006F0085 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +458,7 @@
 				1A7CA44C1CAD05D9006F0085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A7CA44D1CAD05D9006F0085 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +467,7 @@
 				1A7CA44F1CAD05D9006F0085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
