@@ -24,7 +24,7 @@
     self.view.backgroundColor = [UIColor yellowColor];
     _btn = [[UIButton alloc] initWithFrame:CGRectMake(375/2-45,667/2, 90, 50)];
     _btn.backgroundColor = [UIColor blueColor];
-    [_btn setTitle:@"Click ME" forState:UIControlStateNormal];
+    [_btn setTitle:@"Click Me" forState:UIControlStateNormal];
     [_two changeFontWithBlock:^(UIFont *font,NSString *text) {
         if (font) {
         _btn.titleLabel.font = font;
