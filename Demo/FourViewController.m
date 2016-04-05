@@ -16,14 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [btn setTitle:@"Success" forState:UIControlStateNormal];
+    btn.frame = CGRectMake(100, 333.5, 175, 67);
+    [btn addTarget:self action:@selector(button:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)button:(id)sender{
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
 /*
 #pragma mark - Navigation
 
